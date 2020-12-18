@@ -23,6 +23,10 @@ body, html {
     padding-top: 20%;
 }
 
+.big-text {
+    font-size: 60px;
+}
+
 .parallax {
     /* The image used */
     background-image: url("zeeb_building.jpg");
