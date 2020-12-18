@@ -6,13 +6,19 @@
     color: #376019;
 }
 
+.top_navbar{
+    margin-bottom: 14px;
+}
+
 #zeeb_logo {
-    max-width: 175px;
+    max-width: 100px;
     margin-left: 100px;
-    margin-right: 100px;
+    margin-right: 50px;
 }
 
 #facebook_logo {
-    max-width: 50px;
+    max-width: 25px;
+    margin-left: auto !important;
     margin-right: 100px;
+    top: 11px;
 }
