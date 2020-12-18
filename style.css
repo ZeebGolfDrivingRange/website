@@ -1,0 +1,36 @@
+.green-text {
+    color: #376019;
+}
+
+.yellow-text {
+    color: #FFDA5A;
+}
+
+.background-green {
+    background-color: #376019;
+    min-height:100%;
+}
+
+body, html {
+    height: 100%;
+}
+
+.nobreak {
+    page-break-inside: avoid;
+}
+
+.padding-top{
+    padding-top: 20%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("zeeb_building.jpg");
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
