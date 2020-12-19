@@ -46,28 +46,28 @@
         $(function(){
             $("#home-div").load("home.html");
         });
-        $("#home").live("click", function(){                       
+        $("#home").click(function(){                       
             $("#home-div").load("home.html");
             $("#services-div").empty();
             $("#photos-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
-        $("#services").live("click", function(){                       
+        $("#services").click(function(){                       
              $("#services-div").load("services.html");
             $("#home-div").empty();
             $("#photos-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
-        $("#photos").live("click", function(){                       
+        $("#photos").click(function(){                       
             $("#photos-div").load("photos.html");
             $("#services-div").empty();
             $("#home-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
-        $("#covid-19").live("click", function(){                       
+        $("#covid-19").click(function(){                       
             $("#covid-19-div").load("covid.html");
             $("#services-div").empty();
             $("#photos-div").empty();
