@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a id="home" class="nav-link hover-white" href="home.html">Home</a>
+                    <a id="home" class="nav-link hover-white">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a id="services" class="nav-link hover-white" href="services.html">Services</a>
+                    <a id="services" class="nav-link hover-white">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a id="photos" class="nav-link hover-white" href="photos.html">Photos</a>
+                    <a id="photos" class="nav-link hover-white">Photos</a>
                 </li>
                 <li class="nav-item">
-                    <a id="covid-19" class="nav-link hover-white" href="covid.html">COVID-19</a>
+                    <a id="covid-19" class="nav-link hover-white">COVID-19</a>
                 </li>
             </ul>
         </div>
@@ -44,31 +44,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(function(){
-        $("#header").load("index.html");
+            $("#home-div").load("home.html");
         });
         $("#home").live("click", function(){                       
-            $("#home-div").load($("#home").attr("href"));
+            $("#home-div").load("home.html");
             $("#services-div").empty();
             $("#photos-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
         $("#services").live("click", function(){                       
-             $("#services-div").load($("#services").attr("href"));
+             $("#services-div").load("services.html");
             $("#home-div").empty();
             $("#photos-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
         $("#photos").live("click", function(){                       
-            $("#photos-div").load($("#photos").attr("href"));
+            $("#photos-div").load("photos.html");
             $("#services-div").empty();
             $("#home-div").empty();
             $("#covid-19-div").empty();
             return false;
         });
         $("#covid-19").live("click", function(){                       
-            $("#covid-19-div").load($("#covid-19").attr("href"));
+            $("#covid-19-div").load("covid.html");
             $("#services-div").empty();
             $("#photos-div").empty();
             $("#home-div").empty();
