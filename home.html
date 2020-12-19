@@ -9,28 +9,30 @@
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col yellow-text">
-                    <h1 style="font-size: 5em">9am - 8:30pm</h1>
-                    <div style="font-size: 5em">Every Day</div>
+                    <div class="big-text">9am - 8:30pm</div>
+                    <div class="big-text">Every Day</div>
                 </div>
                 <div class="col">
                 </div>
                 <div class="col-1"></div>
             </div>
-             
+
         </div>
     </div>
     <div class="background-green">
+        <a id="arrow-up" href="#" class="arrow up">Up</a>
         <div class="container">
             <br />
-
+            <br />
+            <br />
             <div class="row">
                 <div class="col"></div>
                 <div class="col-10 yellow-text">
                     <h1>We are</h1>
                     <h5>
                         the only public driving range located on the west side of Ann Arbor.
-                        We offer a pro shop with supplies for the beginner golfer, 40 hitting  mats,
-                        rain sheltered mats, grass tees overseeing 21+ acres, re-gripping  services, and after-hour tokens.
+                        We offer a pro shop with supplies for the beginner golfer, 40 hitting mats,
+                        rain sheltered mats, grass tees overseeing 21+ acres, and re-gripping services.
                         Clubs are available for use, ask  at the front desk.
                     </h5>
                 </div>
@@ -57,11 +59,16 @@
                 <div class="col-1"></div>
                 <div class="col-1"></div>
             </div>
-
             <br />
             <br />
         </div>
     </div>
-    
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $("#arrow-up").click(function(){
+            $('html, body').animate({ scrollTop: $(document).height() }, "slow")
+        });
+    </script>
 </body>
-</html> 
+</html>

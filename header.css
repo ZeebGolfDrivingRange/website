@@ -11,6 +11,22 @@
     margin-right: 50px;
 }
 
+.nav-button {
+    margin-right: 10px;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #376019;
+    border: none;
+}
+
+    .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active, .open .dropdown-toggle.btn-outline {
+        background-color: transparent;
+        color: #142800;
+        box-shadow: 0 0 0 0.2rem rgba(55, 96, 25, 0.5)
+    }
+
 #zeeb-logo {
     max-width: 100px;
     margin-left: 100px;
