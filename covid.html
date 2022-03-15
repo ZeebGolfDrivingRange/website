@@ -3,8 +3,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 <body>
-    <div id="description">
-        Please wear a mask in the building at all times. Thank you!
+    <div class="background-green">
+        <div class="container" id="description">
+            <div class="row"><div class="col"></div></div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-6 yellow-text">
+                    <h1>We follow CDC Guidelines for social distancing and mask policies. Please check the CDC website for more information.</h1>
+                </div>
+                <div class="col-4">
+                    <div data-cdc-widget="COVIDCountyCheck" data-horizontal="true" ></div> 
+                    <script src="https://tools.cdc.gov/1M1B"></script>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
     </div>
 </body>
 </html> 
